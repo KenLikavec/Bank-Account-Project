@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,11 +11,11 @@ namespace BankAccountProject
     {
 
         //Fields
-        private string fullName = "Monopoly Guy";
-        private string dateOfBirth = "02/06/1935";
-        private string address = "18000 Millionaires Row, Cleveland OH 44879";
-        private string phoneNumber = "888-131-9654";
-        private int accountnumber = 0123456;
+        protected string fullName = "Monopoly Guy";
+        protected string dateOfBirth = "02/06/1935";
+        protected string address = "18000 Millionaires Row, Cleveland OH 44879";
+        protected string phoneNumber = "888-131-9654";
+        protected int accountnumber = 0123456;
 
 
         //Properties

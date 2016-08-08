@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -84,6 +85,7 @@ namespace BankAccountProject
                                 case 1:
                                     {
                                         MonopolyC.depositeChecking();
+                                        MonopolyC.checkingAccountSummary();
                                         break;
                                     }
                                 case 2:
@@ -142,8 +144,7 @@ namespace BankAccountProject
             while (mainReturn == "YES");
             
 
-
-
+            
 
 
 
